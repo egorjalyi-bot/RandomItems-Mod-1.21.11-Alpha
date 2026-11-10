@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "randomitems",
+  "version": "${version}",
+  "name": "RandomItems",
+  "description": "Блок RandomItems: ПКМ — стон жителя и выпадает случайный предмет.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.randomitems.RandomItemsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
